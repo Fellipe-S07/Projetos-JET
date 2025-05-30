@@ -3,18 +3,18 @@ n2 = int(input("Digite outro núemro: "))
 
 operacao = (input("Digite a operação que você quer usar: "))
 
-if operacao == "soma"
+if operacao == "soma":
     result = n1 + n2
     print(result)
     
-elif operacao == "subtracao"
+elif operacao == "subtracao":
     result = n1 - n2
     print(result)
     
-elif operacao == "multiplicacao"
+elif operacao == "multiplicacao":
     result = n1 * n2
     print(result)
      
-elif operacao == "divisao"
+elif operacao == "divisao":
     result = n1 / n2
     print(result)
