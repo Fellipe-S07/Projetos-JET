@@ -1,0 +1,13 @@
+nome = input("Digite seu nome: ")
+
+n1 = int(input("Digite a sua nota no primeiro trimestre: "))
+
+n2 = int(input("Digite a sua nota no segundo trimestre: "))
+
+n3 = int(input("Digite a sua nota no terceiro trimestre: "))
+
+media = n1 + n2 + n3
+
+mediaf = media / 3
+
+print(nome, " a nota final foi: ", mediaf)
