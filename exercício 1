@@ -1,0 +1,20 @@
+n1 = int(input("Digite um núemro: "))
+n2 = int(input("Digite outro núemro: "))
+
+operacao = (input("Digite a operação que você quer usar: "))
+
+if operacao == "soma"
+    result = n1 + n2
+    print(result)
+    
+elif operacao == "subtracao"
+    result = n1 - n2
+    print(result)
+    
+elif operacao == "multiplicacao"
+    result = n1 * n2
+    print(result)
+     
+elif operacao == "divisao"
+    result = n1 / n2
+    print(result)
