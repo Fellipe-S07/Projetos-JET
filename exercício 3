@@ -1,0 +1,9 @@
+nome = input("Digite seu nome: ")
+idade = int(input("Digite sua idade: "))
+cart = input("Você ja fez sua carteira de habilitação?  ")
+
+if idade >= 18 and cart == "sim":
+    print("Parabéns! Você pode dirigir!")
+    
+else:
+    print("Você não pode dirigir")
