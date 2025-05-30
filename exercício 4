@@ -1,0 +1,11 @@
+num = int(input("Digite um número: "))
+
+if num == 0:
+    print("O número é 0")
+    
+elif num < 0:
+    print("O número é negativo")
+    
+elif num > 0:
+    print("O núemro é positivo")
+      
