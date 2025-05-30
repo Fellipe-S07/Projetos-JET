@@ -1,0 +1,11 @@
+login = input("Digite seu email: ")
+senha = input("Digite sua senha: ")
+
+login_salvo = "email@gmail"
+senha_salva = "12345"
+
+
+if login == login_salvo and senha == senha_salva:
+    print("Você foi cadastrado(a)")
+else:
+    print("Seu login não foi cadastrado")
