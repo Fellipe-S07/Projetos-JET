@@ -1,0 +1,6 @@
+numerinho = int(input("Digite um número: "))
+contador = 0
+
+for tabuada in range(11):
+    contador = numerinho * tabuada
+    print(contador)
