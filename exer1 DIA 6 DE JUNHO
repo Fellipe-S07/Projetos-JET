@@ -1,0 +1,11 @@
+lista = []
+resultado = 0
+
+for i in range(5):
+    numero = int(input("digite um numerinho: "))
+    lista.append(numero)
+    
+for num in lista:
+    resultado += num 
+
+print(resultado
