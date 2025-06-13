@@ -1,0 +1,12 @@
+def calcular_imc(altura, peso):
+    imc = peso/(altura*altura)
+    return imc
+
+def main():
+    peso = float(input("Digite seu peso: " ))
+    altura = float(input("Digite sua altura: " ))
+    pessoa1 = calcular_imc(altura, peso)
+    print(f"O imc da primeira pessoa é: {pessoa1}")
+    
+    
+main()
