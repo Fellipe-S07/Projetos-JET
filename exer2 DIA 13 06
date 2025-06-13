@@ -1,0 +1,40 @@
+import geometria
+
+def main():
+    operacao = int(input("Digite 1 para descobrir a area do retangulo, 2 para descobrir a area do triangulo, e 3 para descobrira area do circulo: "))
+    
+    if operacao == 1:
+        valorre = int(input("Digite o valor da base do retangulo: "))
+        valorre2 = int(input("Digite o valor da altura do retangulo: "))
+        resultado = geometria.calcular_area_retangulo(valorre, valorre2)
+        print(f"A área do retangulo é: {resultado}")
+        
+    elif operacao == 2:
+        valort = int(input("Digite o valor da base do triangulo: "))
+        valort2 = int(input("Digite o valor da altura do triangulo: "))
+        resultado = geometria.calcular_area_retangulo(valort, valort2)
+        print(f"A área do triangulo é: {area2}")
+        
+    elif operacao == 3:
+        valorraio = int(input("Digite o valor do raio do circulo: "))
+        resultado = geometria.calcular_area_retangulo(valorraio)
+        print(f"A área do circulo é: {area3}")
+        
+main()
+
+OUTRO ARQUIVO
+
+
+def calcular_area_retangulo(valorre, valorre2):
+    area = valorre * valorre2
+    return area
+
+
+def calcular_area_triangulo(valort, valort2):
+    area = (valort*valort2)/ 2
+    return area
+    
+
+def calcular_area_circulo(valorraio):
+    area = 3.14 * (valorraio * valorraio)
+    return area
